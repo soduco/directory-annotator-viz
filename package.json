@@ -1,0 +1,76 @@
+{
+  "name": "directory-annotator-viz-react",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": ".",
+  "dependencies": {
+    "@emotion/react": "^11.10.0",
+    "@emotion/styled": "^11.10.0",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/material": "^5.10.1",
+    "@mui/styles": "^5.9.3",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^12",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^28.1.7",
+    "@types/node": "^17",
+    "@types/react": "^17",
+    "@types/react-dom": "^17",
+    "axios": "^0.27.2",
+    "caniuse-lite": "^1.0.30001559",
+    "fabric": "^4.6.0",
+    "fabricjs-react": "^1.0.8",
+    "react": "^17",
+    "react-dom": "^17",
+    "react-hotkeys": "^2.0.0",
+    "react-query": "^3.39.2",
+    "react-resize-panel": "^0.3.5",
+    "react-scripts": "^4.0.3",
+    "react-text-annotate": "^0.3.0",
+    "typescript": "^4.7.4",
+    "underscore": "^1.13.4",
+    "web-vitals": "^2.1.4",
+    "xmldom": "^0.6.0"
+  },
+  "scripts": {
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "postinstall": "patch-package"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/fabric": "^4.5.11",
+    "@types/react-window": "^1.8.5",
+    "@types/underscore": "^1.11.4",
+    "patch-package": "^6.4.7"
+  },
+  "overrides": {
+    "@seveibar/react-resize-panel": {
+      "react": "^17",
+      "react-dom": "^17"
+    },
+    "react-resize-panel": {
+      "react": "^17",
+      "react-dom": "^17"
+    }
+  }
+}
